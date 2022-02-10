@@ -1,0 +1,174 @@
+
+<!--
+    ********   Please DOUBLE CLICK to open my goti.   ********
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ludoStyle.css">
+</head>
+<body>
+    <h1 style="text-align: center;color: rgb(255, 255, 255);
+    text-shadow: 0 0 0.5em rgb(220, 214, 255), 0 0 0.5em rgb(235, 235, 235), 0 0 0.5em rgb(251, 251, 251); font-size:50px;display: inline-block;font-family: sans-serif;">Ludo Game</h1>
+  <br>
+  <div class="borderDiv">
+            <div id="col1">
+                <div class="greenBox">
+                    <div class="greenHome" id="greenHome1">
+                        <div class="greenPawn" id="greenPawn0"></div>
+                    </div>
+                    <div class="greenHome" id="greenHome2">
+                        <div class="greenPawn" id="greenPawn1"></div>
+                    </div>
+                    <div class="greenHome" id="greenHome3">
+                        <div class="greenPawn" id="greenPawn2"></div>
+                    </div>
+                    <div class="greenHome" id="greenHome4">
+                        <div class="greenPawn" id="greenPawn3"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="col2">
+                <div class="upBoxes" id="49"></div>
+                <div class="upBoxes" id="50"></div>
+                <div class="upBoxes" id="51"></div>
+                <div class="upBoxes" id="48"></div>
+                <div class="upBoxesRed" id="rw1"></div>
+                <div class="upBoxesRed" id="0"></div>
+                <div class="upBoxesRed" id="47"></div>
+                <div class="upBoxesRed" id="rw2"></div>
+                <div class="upBoxes" id="1"></div>
+                <div class="upBoxes" id="46"></div>
+                <div class="upBoxesRed" id="rw3"></div>
+                <div class="upBoxes" id="2"></div>
+                <div class="upBoxes" id="45"></div>
+                <div class="upBoxesRed" id="rw4"></div>
+                <div class="upBoxes" id="3"></div>
+                <div class="upBoxes" id="44"></div>
+                <div class="upBoxesRed" id="rw5"></div>
+                <div class="upBoxes" id="4"></div>
+            </div>
+            <div id="col3">
+                <div class="redBox">
+                    <div class="redHome" id="redHome1">
+                        <div class="redPawn" id="redPawn0"></div>
+                    </div>
+                    <div class="redHome" id="redHome2">
+                        <div class="redPawn" id="redPawn1"></div>
+                    </div>
+                    <div class="redHome" id="redHome3">
+                        <div class="redPawn" id="redPawn2"></div>
+                    </div>
+                    <div class="redHome" id="redHome4">
+                        <div class="redPawn" id="redPawn3"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="col4">
+                <div class="upBoxes" id="38"></div>
+                <div class="upBoxesGreen" id="39"></div>
+                <div class="upBoxes" id="40"></div>
+                <div class="upBoxes" id="41"></div>
+                <div class="upBoxes" id="42"></div>
+                <div class="upBoxes" id="43"></div>
+                <div class="upBoxes" id="37"></div>
+                <div class="upBoxesGreen" id="gw1"></div>
+                <div class="upBoxesGreen" id="gw2"></div>
+                <div class="upBoxesGreen" id="gw3"></div>
+                <div class="upBoxesGreen" id="gw4"></div>
+                <div class="upBoxesGreen" id="gw5"></div>
+                <div class="upBoxes" id="36"></div>
+                <div class="upBoxes" id="35"></div>
+                <div class="upBoxesGreen" id="34"></div>
+                <div class="upBoxes" id="33"></div>
+                <div class="upBoxes" id="32"></div>
+                <div class="upBoxes" id="31"></div>
+            </div>
+            <div id="col5">
+                <img src="ludooo.jpg" alt="" style="width: 100%; height: 100%;">
+            </div>
+            <div id="col6">
+                <div class="upBoxes" id="5"></div>
+                <div class="upBoxes" id="6"></div>
+                <div class="upBoxes" id="7"></div>
+                <div class="upBoxesBlue" id="8"></div>
+                <div class="upBoxes" id="9"></div>
+                <div class="upBoxes" id="10"></div>
+                <div class="upBoxesBlue" id="bw5"></div>
+                <div class="upBoxesBlue" id="bw4"></div>
+                <div class="upBoxesBlue" id="bw3"></div>
+                <div class="upBoxesBlue" id="bw2"></div>
+                <div class="upBoxesBlue" id="bw1"></div>
+                <div class="upBoxes" id="11"></div>
+                <div class="upBoxes" id="17"></div>
+                <div class="upBoxes" id="16"></div>
+                <div class="upBoxes" id="15"></div>
+                <div class="upBoxes" id="14"></div>
+                <div class="upBoxesBlue" id="13"></div>
+                <div class="upBoxes" id="12"></div>
+            </div>
+            <div id="col7">
+                <div class="yellowBox">
+                    <div class="yellowHome" id="yellowHome1">
+                        <div class="yellowPawn" id="yellowPawn0"></div>
+                    </div>
+                    <div class="yellowHome" id="yellowHome2">
+                        <div class="yellowPawn" id="yellowPawn1"></div>
+                    </div>
+                    <div class="yellowHome" id="yellowHome3">
+                        <div class="yellowPawn" id="yellowPawn2"></div>
+                    </div>
+                    <div class="yellowHome" id="yellowHome4">
+                        <div class="yellowPawn" id="yellowPawn3"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="col8">
+                <div class="upBoxes" id="30"></div>
+                <div class="upBoxesYellow" id="yw5"></div>
+                <div class="upBoxes" id="18"></div>
+                <div class="upBoxes" id="29"></div>
+                <div class="upBoxesYellow" id="yw4"></div>
+                <div class="upBoxes" id="19"></div>
+                <div class="upBoxes" id="28"></div>
+                <div class="upBoxesYellow" id="yw3"></div>
+                <div class="upBoxes" id="20"></div>
+                <div class="upBoxes" id="27"></div>
+                <div class="upBoxesYellow" id="yw2"></div>
+                <div class="upBoxesYellow" id="21"></div>
+                <div class="upBoxesYellow" id="26"></div>
+                <div class="upBoxesYellow" id="yw1"></div>
+                <div class="upBoxes" id="22"></div>
+                <div class="upBoxes" id="25"></div>
+                <div class="upBoxes" id="24"></div>
+                <div class="upBoxes" id="23"></div>
+            </div>
+            <div id="col9">
+                <div class="blueBox">
+                    <div class="blueHome" id="blueHome1">
+                        <div class="bluePawn" id="bluePawn0"></div>
+                    </div>
+                    <div class="blueHome" id="blueHome2">
+                        <div class="bluePawn" id="bluePawn1"></div>
+                    </div>
+                    <div class="blueHome" id="blueHome3">
+                        <div class="bluePawn" id="bluePawn2"></div>
+                    </div>
+                    <div class="blueHome" id="blueHome4">
+                        <div class="bluePawn" id="bluePawn3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="dice">Click me to Roll Dice</button><br><br>
+        <div id="turn"></div>
+        
+        <div id="dice1"></div>
+        <h2 id="dieVal" style="text-align: center;display: inline-block;font-family: sans-serif;"></h2>
+        <script src="ludoJS.js"></script>
+</body>
+</html>
